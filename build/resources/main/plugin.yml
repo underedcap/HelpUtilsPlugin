@@ -1,0 +1,35 @@
+name: HelpUtils
+version: 1.0
+main: ru.helputils.HelpUtils
+api-version: 1.16
+author: drugaddict
+
+commands:
+  heal:
+    description: Heal command
+    usage: /heal
+    permission: HelpUtils.fs
+    permission-message: Нет прав
+
+  fix:
+    description: Fix items
+    usage: /fix
+    permission: HelpUtils.fs
+    permission-message: Нет прав
+    aliases:
+      - fix all
+  ec:
+    description: transfare ec
+    permission: HelpUtils.fs
+    permission-message: Нет прав
+    usage: /ec
+    aliases:
+      - enderchest
+
+  fly:
+    description: Fly speed/toggle command
+    usage: /fly
+    permission: HelpUtils.fs
+    permission-message: Нет прав
+    aliases:
+      - flyspeed
